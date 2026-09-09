@@ -8,6 +8,21 @@ document.addEventListener("DOMContentLoaded", () => (
 
     let isLiked = false;
     let baseLikes = 0;
-
     
+    //texto inicial
+
+    if(LikesCountSpan){
+        LikesCountSpan.textoContent = "0";
+    }
+
+    //numeros acima de Imil
+
+    function formatLikes (num){
+        if(num >=1000){
+            
+        }
+    }
+
+
+
 ))
